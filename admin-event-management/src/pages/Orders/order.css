@@ -1,0 +1,31 @@
+.attendees-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+  }
+ 
+  .attendees-container h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .attendees-list {
+    margin-top: 20px;
+  }
+  
+  .attendee-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .attendee-item button {
+    padding: 5px 10px;
+  }
+  

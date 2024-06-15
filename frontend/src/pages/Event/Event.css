@@ -1,0 +1,37 @@
+.attendees-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-attendee {
+    margin-bottom: 20px;
+  }
+  
+  .add-attendee input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .add-attendee button {
+    padding: 5px 10px;
+  }
+  
+  .attendees-list {
+    margin-top: 20px;
+  }
+  
+  .attendee-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .attendee-item button {
+    padding: 5px 10px;
+  }
+  

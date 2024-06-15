@@ -1,0 +1,89 @@
+.edit {
+    width: 70%;
+    margin-left: max(5vw, 25px);
+    margin-top: 50px;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+
+.edit form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.edit-img-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.edit-img-upload img {
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+}
+
+.edit-img-upload input {
+    display: none;
+}
+
+.edit-product-name,
+.edit-product-description,
+.edit-category,
+.edit-price,
+.edit-date-time,
+.edit-location {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.edit-product-name input,
+.edit-product-description textarea,
+.edit-category-price select,
+.edit-category-price input,
+.edit-date-time input,
+.edit-location input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.edit-category-price {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.edit-date-time {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.edit-date-time input {
+    flex: 1;
+}
+
+.edit-btn {
+    width: 100%;
+    max-width: 120px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+}
+
+.edit-btn:hover {
+    background-color: #333;
+}

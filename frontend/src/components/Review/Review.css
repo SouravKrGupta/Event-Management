@@ -1,0 +1,102 @@
+.review-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.review-menu h1 {
+  color: #262626;
+  font-weight: 500;
+}
+
+.testimonial {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial h1 {
+  color: #262626;
+  font-weight: 500;
+}
+
+.review {
+  margin: 20px 0;
+}
+
+.review-content {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.review-content p {
+  color: #808080;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.review-content h3 {
+  margin-top: 10px;
+  color: #262626;
+}
+
+.review-content p:last-child {
+  margin-top: 5px;
+  font-style: italic;
+  color: #808080;
+}
+
+.dot-pagination {
+  margin-top: 20px;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: blueviolet;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .testimonial h1 {
+      font-size: 24px; /* Adjust font size for heading on smaller screens */
+  }
+
+  .review-content p {
+      font-size: 14px; /* Adjust font size for review content on smaller screens */
+  }
+
+  .review-content h3 {
+      font-size: 18px; /* Adjust font size for reviewer name on smaller screens */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .testimonial {
+      padding: 15px; /* Adjust padding for testimonial section on smaller screens */
+  }
+
+  .review-content {
+      padding: 15px; /* Adjust padding for review content on smaller screens */
+  }
+
+  .review-content p {
+      font-size: 13px; /* Further adjust font size for review content on smaller screens */
+  }
+
+  .review-content h3 {
+      font-size: 16px; /* Further adjust font size for reviewer name on smaller screens */
+  }
+}

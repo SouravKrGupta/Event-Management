@@ -1,0 +1,111 @@
+.event-item {
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+
+.event-item-img-container {
+    padding: 10px;
+}
+
+.event-item-img-container h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.event-item-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.event-item-info {
+    padding: 20px;
+}
+
+.event-item-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.event-item-name p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.event-item-desc {
+    color: #676767;
+    font-size: 14px; /* Adjusted font size for description */
+}
+
+.event-item-location {
+    color: tomato;
+    font-size: 18px; /* Adjusted font size for location */
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.event-item-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.event-item-price {
+    color: tomato;
+    font-size: 18px; /* Adjusted font size for price */
+    font-weight: 500;
+}
+
+.event-item-view-btn {
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.event-item-view-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .event-item-img-container h2 {
+        font-size: 18px; /* Decrease font size for smaller screens */
+    }
+
+    .event-item-desc {
+        font-size: 12px; /* Decrease font size for smaller screens */
+    }
+
+    .event-item-location {
+        font-size: 16px; /* Decrease font size for smaller screens */
+    }
+
+    .event-item-price {
+        font-size: 16px; /* Decrease font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .event-item-img-container h2 {
+        font-size: 16px; /* Further decrease font size for smaller screens */
+    }
+
+    .event-item-location {
+        font-size: 14px; /* Further decrease font size for smaller screens */
+    }
+
+    .event-item-price {
+        font-size: 14px; /* Further decrease font size for smaller screens */
+    }
+}

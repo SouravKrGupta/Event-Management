@@ -1,0 +1,130 @@
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.search-bar h1 {
+    color: #262626;
+    font-weight: 500;
+}
+
+.search-bar-text {
+    max-width: 60%;
+    color: #808080;
+
+}
+
+.search-bar hr {
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.form input {
+    padding: 10px;
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #ccc;.search-bar {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .search-bar h1 {
+        color: #262626;
+        font-weight: 500;
+    }
+    
+    .search-bar-text {
+        max-width: 60%;
+        color: #808080;
+    }
+    
+    .search-bar hr {
+        margin: 10px 0px;
+        height: 2px;
+        background-color: #e2e2e2;
+        border: none;
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center align on smaller screens */
+        margin: 20px 0px;
+    }
+    
+    .form input {
+        padding: 10px;
+        width: 100%;
+        max-width: 800px;
+        border: 1px solid #ccc;
+        border-radius: 24px;
+        font-size: 16px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        margin: 10px 0; /* Adjust margin for better spacing */
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    /* Responsive Styles */
+    @media screen and (max-width: 768px) {
+        .form input {
+            max-width: 90%; /* Adjust input width for smaller screens */
+        }
+    
+        button {
+            width: 100%; /* Make button full width on smaller screens */
+            max-width: 200px; /* Limit button width on smaller screens */
+        }
+    }
+    
+    @media screen and (max-width: 576px) {
+        .search-bar-text {
+            max-width: 100%; /* Adjust text width for smaller screens */
+        }
+    
+        .form input {
+            max-width: 100%; /* Adjust input width for smaller screens */
+        }
+    }
+    
+    border-radius: 24px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
